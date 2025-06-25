@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Creative Graphic Designer | Portfolio Website | Professional Design Services" />
+  <meta name="description" content="Explore high-quality graphic design services with a creative touch. View portfolio, learn about the designer, and contact for unique branding, logos, and digital designs." />
+  <title>Ghulam Ishaq | Portfolio</title>
+  <link rel="stylesheet" href="alert.js">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link icon="https://example.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+  <link rel="icon" href="./ghulamishaq.png" type="image/png" />
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      background: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1f1f1f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00ffc8;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease forwards;
+    }
+    p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+      color: #555;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .service-box {
+      background: #c1c5c4;
+      /* padding: 30px; */
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+    .service-box:hover {
+      transform: translateY(-10px);
+      background: #e3fff9;
+
+    }
+    footer {
+      background: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-form{
+        width: 900px;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: #1f1f1f;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     }
+       .ishaq{background: #1f1f1f; font-size: 20px; color: white; padding: 20px; border-radius: 10px; display: flex; flex-direction: row; align-items: center; gap: 10px; justify-content: space-between;}
+    .ishaq a { color: white; text-decoration: none; font-weight: bold; }
+    .ishaq a:hover { color: #00ffc8; }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 9; transform: translateY(0);}
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background: #1f1f1f;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #00ffc8;
+      color: black;
+    }
+
+
+.ppp {
+      font-size: 14px;
+      color: #c9c5c5;
+      margin-top: 20px;
+    }
+
+
+
+
+    .contact-info{
+      background: #1f1f1f;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 800px;
+      margin-bottom: 20px;
+      text-align: left;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-info a { color: white; text-decoration: none; font-weight: bold; }
+    .contact-form { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+  .fiverr:hover{
+    display: url(./facebook.png);
+  }
+
+
+
+.img1{
+  background-color: #1f1f1f;
+  height: 250px;
+  width: 266px;
+  border-radius: 10px;
+
+}
+
+
+     @media (max-width: 768px) {
+      .ishaq { flex-direction: column; align-items: center; }
+    }
+
+
+@media (max-width: 839px){
+  .contact-info{
+    width: 500px;
+  }
+}
+ @media (max-width: 548px){
+  .contact-info{
+    width: 280px;
+  }
+} 
+
+
+
+  </style>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+
+
+
+  <script>
+    // Wait for page to fully load
+    window.onload = function() {
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "Welcome to the my site!",
+        showConfirmButton: false,
+        timer: 1500
+      });
+    };
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+  <header>
+    <h1>Creative Graphic Designer</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to My Design World</h1>
+    <p>I create eye-catching visuals and impactful brand identities that leave lasting impressions.</p>
+  </section>
+
+  <section id="about">
+    <h1>About Me</h1>
+    <p>
+      <b>Thanks for visiting my website!</b> <br>
+
+Hi! My name Ghulam ishaq. I will design luxury fashion, beauty and boutique logo. I put forth a strong attempt to satisfy every customer need.
+  I can also do Custom Professional Minimalist Logo -Flat -Minimal -Photography -Hand-Drawn -Initials -Element -Symbol -Freestyle -Watercolor -Luxury -Modern -Elegant Photographer -Real Estate -Doctor -Coach -Youtuber -Blogger -Music - Clothing -Fashion -Beauty -Boutique -Skincare -cosmetics -Healthy -Travel -Cooking -Restaurant -Cleaning LOGOS </p>
+  </section>
+
+  <section id="services">
+    <h1>Services I Offer</h1>
+    <div class="services">
+      <div class="service-box">
+       <img class="img1" src="./muck up logo2.png" alt="">
+        <h3>Muckup Logo</h3>
+        <p>Modern and sleek logo mockup showcasing your brand in a realistic, high-quality presentation — perfect for client previews and portfolio display</p>
+      </div>
+
+
+  <div class="service-box">
+    <img class="img1" src="./muckup logo .png" alt="">
+        <h3>Muckup Logo</h3>
+        <p>Modern and sleek logo mockup showcasing your brand in a realistic, high-quality presentation — perfect for client previews and portfolio display</p>
+      </div>
+
+
+
+
+
+  <div class="service-box">
+    <img class="img1" src="./muckup logo3.png" alt="">
+        <h3>Muckup Logo</h3>
+        <p>Modern and sleek logo mockup showcasing your brand in a realistic, high-quality presentation — perfect for client previews and portfolio display</p>
+      </div> 
+      
+      <div class="service-box">
+        <img class="img1" src="./vector logo .png" alt="">
+        <h3>Logo Design</h3>
+        <p>Scalable and high-resolution vector logo design, perfect for print and digital use — ensuring sharp, clean results at any size.</p>
+      </div>
+  <div class="service-box">
+    <img class="img1" src="./vintage logo.png" alt="">
+        <h3>Logo Design</h3>
+        <p>Timeless vintage logo design with a classic touch — perfect for brands seeking a nostalgic and authentic identity</p>
+      </div>
+
+  <div class="service-box">
+    <img class="img1" src="./graphic designing service .png" alt="">
+        <h3>Logo Design</h3>
+        <p>Clean and eye-catching profile logo design, ideal for social media, personal branding, and professional online presence.</p>
+      </div>
+
+
+  <div class="service-box">
+    <img class="img1" src="./ailogo.png" alt="">
+        <h3>AI Logo</h3>
+        <p>Custom, high-resolution logo designs that represent your brand identity professionally.</p>
+      </div>
+
+
+  <div class="service-box">
+    <img class="img1" src="./banner logo .png" alt="">
+        <h3>Post Designing</h3>
+        <p>Custom, high-resolution logo designs that represent your brand identity professionally.</p>
+      </div>
+
+
+  <div class="service-box">
+    <img class="img1" src="./t shir logo.png" alt="">
+        <h3>T-shirt Design</h3>
+        <p>Custom, high-resolution logo designs that represent your brand identity professionally.</p>
+      </div>
+
+
+      <div class="service-box">
+        <img class="img1" src="./furrer2.png" alt="">
+        <h3>Brand Identity</h3>
+        <p>Complete branding packages including color schemes, typography, and brand guidelines.</p>
+      </div>
+      <div class="service-box">
+        <img class="img1" src="./Screenshot 2025-06-07 031531.png" alt="">
+        <h3>Social Media Design</h3>
+        <p>Engaging and branded social media graphics for Instagram, Facebook, and more.</p>
+      </div>
+      <div class="service-box">
+        <img class="img1" src="./Screenshot 2025-06-08 130515.png" alt="">
+        <h3>Print Design</h3>
+        <p>Brochures, flyers, business cards, and everything you need for offline branding.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1>Contact Me</h1>
+  <div class="contact-info">
+
+       <a href="https://g.co/kgs/49no7sD" target="_blank"><i class="go to map"></i> Go on map</a><br>
+       <a href="03702389854">03702389854</a>
+      <a href="g.ishaq2007@gmail.com">g.ishaq2007@gmail.com</a> 
+        <a href="https://wa.me/03702389854" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat on WhatsApp" />
+        Chat with us on WhatsApp </a>
+      </div>
+
+
+
+
+        <div class="ishaq">
+          
+             <a class="fiverr" href="https://www.fiverr.com/users/ishaqlogo/seller_dashboard" target="_blank"><i class="fab fa-Fiver"></i> fiverr</a><br>
+             <a class="facebook" href="https://www.facebook.com/profile.php?id=61556765857242" target="_blank"><i class="fab fa-facebook"></i> facebook</a><br>
+            <a class="whatapp" href="https://wa.me/923702389854" target="_blank">WhatsApp</a><br>
+            <a class="instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a><br>
+           
+
+      </div>
+   
+  </section>
+
+  <footer>
+    <p class="ppp">© 2025 Ghulam Ishaq Designer. All rights reserved.</p>
+  </footer>
+
+</body>
+
+
+
+</html>
